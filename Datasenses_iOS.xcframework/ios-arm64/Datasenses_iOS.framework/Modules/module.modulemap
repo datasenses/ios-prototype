@@ -1,0 +1,11 @@
+framework module Datasenses_iOS {
+  umbrella header "Datasenses_iOS.h"
+  export *
+
+  module * { export * }
+}
+
+module Datasenses_iOS.Swift {
+  header "Datasenses_iOS-Swift.h"
+  requires objc
+}
